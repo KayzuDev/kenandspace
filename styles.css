@@ -1,0 +1,227 @@
+body
+{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link:visited
+{
+    border-bottom: 2px solid #fb9c16;
+    color: #fff;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.home-link
+{
+    color: #fff;
+}
+
+.home-link:hover,
+.home-link:active,
+.home-link:visited
+{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navbar
+{
+    background-color: black;
+}
+
+.nav-active
+{
+    font-weight: bold;
+}
+
+.navbar-toggler
+{
+    margin: 5px;
+}
+
+.backtop
+{
+    text-align: right;
+    margin: 5px;
+}
+
+#banner
+{
+    text-align: center;
+}
+
+#home
+{
+    padding:20em;
+    background-image:url("images/homepage_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+#race-for-space
+{
+    padding: 10px 0 0 0;
+}
+
+#space-tourism
+{
+    position: absolute;
+    left: 0px;
+    top: 25%;
+    margin: 10px;
+    z-index: -1;
+}
+
+#about
+{
+    background-color: black;
+    margin: 10px;
+}
+
+.top-right
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 20px;
+}
+
+.dark
+{
+    color: white;
+    background: black;
+}
+
+.light
+{
+    font-weight: bold;
+}
+
+.left
+{
+    float: left;
+    padding: 0 20px 0 0;
+    margin: 10px 0 10px 10px;
+}
+
+.right
+{
+ float: right;
+ padding: 0 0 20px 0;
+}
+
+.column
+{
+  float: left;
+  width: 32.5%;
+  margin: 4px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 17px;
+  padding:1em;
+
+}
+
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#quiz
+{
+    margin: 10px;
+    font-family: 'Georama', sans-serif;
+    text-align: center;
+}
+
+button
+{
+    width: 100px;
+}
+
+.answer
+{
+    width: 150px;
+    margin: 5px;
+    background-color: #00c9ff;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #006580;
+}
+
+.question
+{
+    background-color: orange;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.selected
+{
+    background-color: #2f7a8d;
+}
+
+#score
+{
+    margin: 10px;
+    font-family: 'Georama', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#resetbtn
+{
+    border: none;
+    outline: none;
+    font-size: 35px;
+    border-radius: 10px;
+    width: 50px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .column
+    {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 668px)
+{
+    #welcome-text
+    {
+        color: transparent;
+    }
+}
